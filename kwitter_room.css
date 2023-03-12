@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+}
+#header {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto 50px auto;
+  width: 80%;
+  color: #6c63ff;
+}
+
+#logout {
+  border-radius: 20px;
+  color: #6c63ff;
+  border: 2px solid #6c63ff;
+  background-color: white;
+}
+
+#salas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+#nomeSala {
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+#addSala {
+  width: 25%;
+  margin: auto;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+
+.titulo-sala {
+  margin-top: 50px;
+  padding: 10px;
+  border-bottom: 2px solid #6c63ff;
+}
